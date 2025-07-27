@@ -14,22 +14,20 @@ This repository contains a database-driven application developed for managing th
 
 ## Project Structure
 
-/vehicle-db-project
+```/vehicle-db-project
 ├── /CRUD
-│ ├── main.py # Entry point for CRUD operations
-│ ├── crud_operations.py # Database logic for data manipulation
-│ ├── db_config.py # Database connection configuration
-│ └── SQLQuery.sql # Raw SQL queries used in operations
-│
+│   ├── main.py             # Entry point for CRUD operations
+│   ├── crud_operations.py  # Database logic for data manipulation
+│   ├── db_config.py        # Database connection configuration
+│   └── SQLQuery.sql        # Raw SQL queries used in operations
 ├── /Report
-│ ├── main.py # Entry point for report generation (optional/basic)
-│ ├── report_generator.py # Placeholder/report logic (if implemented)
-│ └── db_config.py # Shared or independent config file
-│
+│   ├── main.py             # Entry point for report generation (optional/basic)
+│   ├── report_generator.py # Placeholder/report logic
+│   └── db_config.py        # Shared or independent config file
 ├── /Diagrams
-│ └── ERD.png # Entity-Relationship Diagram (ERD)
-│
-└── README.md # Project documentation
+│   └── ERD.png             # Entity-Relationship Diagram (ERD)
+└── README.md               # Project documentation```
+
 
 
 
